@@ -3,18 +3,18 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fitsSystemWindows="true"
-    android:background="#FF5722">
+    android:background="@color/Laranja">
 
 <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="20dp"
+    android:paddingTop="10dp"
     android:paddingLeft="24dp"
     android:paddingRight="24dp">
 
     <ImageView
-        android:src="@drawable/geekquiz_branco"
+        android:src="@drawable/geekquiz_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"/>
@@ -25,13 +25,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:textColorHint="#FBE9E7">
+        android:textColorHint="@color/Branco">
 
         <EditText
             android:id="@+id/email"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:textColor="@color/Branco"
             android:hint="Email"/>
 
     </android.support.design.widget.TextInputLayout>
@@ -42,28 +43,29 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:textColorHint="#FBE9E7">
+        android:textColorHint="@color/Branco">
 
         <EditText
             android:id="@+id/senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:textColor="#ffffff"
+            android:textColor="@color/Laranja"
             android:hint="Senha"/>
 
     </android.support.design.widget.TextInputLayout>
 
-    <android.support.v7.widget.AppCompatButton
+    <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/Chumbo"
+        android:textColor="@color/Branco"
+        android:padding="25dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
-        android:padding="25dp"
-        android:text="Entrar"
-        android:background="@color/coloBtnDefault"
-        android:textColor="@color/white"/>
+        android:text="Entrar"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,7 +73,7 @@
         android:layout_marginBottom="24dp"
         android:gravity="center"
         android:textSize="16dip"
-        android:textColor="@color/white"/>
+        android:textColor="@color/Branco"/>
 
 </LinearLayout>
 
