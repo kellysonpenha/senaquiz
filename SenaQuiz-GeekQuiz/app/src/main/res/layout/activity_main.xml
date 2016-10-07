@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:textColorHint="@color/Branco">
+        android:textColorHint="@color/Branco"> //test
 
         <EditText
             android:id="@+id/senha"
