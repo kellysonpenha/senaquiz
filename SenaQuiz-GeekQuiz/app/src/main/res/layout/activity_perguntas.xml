@@ -27,7 +27,7 @@
             android:text="@string/n"
             android:layout_marginRight="4dp"
             android:textColor="@color/Laranja"
-            android:textSize="@dimen/tamPergunta"/>
+            android:textSize="@dimen/tamPergunta"/><!-- teste-->
 
         <TextView
             android:layout_width="wrap_content"
