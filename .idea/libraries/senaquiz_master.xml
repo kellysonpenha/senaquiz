@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="senaquiz-master">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/senaquiz-master.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
